@@ -1,0 +1,6 @@
+model_name,type,architecture,metric_name,metric_value
+minigpt_v1,mini-GPT,"ctx=32, layers=2, heads=2",val_loss,7.753
+minigpt_v2,mini-GPT,"ctx=64, layers=4, heads=4",val_loss,7.755
+twitter-xlm-roberta-base-sentiment,HF pipeline,transformer (278M),F1-score,0.95
+distilbert-base-multilingual-cased,HF pipeline,transformer (135M),F1-score,0.766
+bert-base-multilingual-uncased,HF pipeline,transformer (167M),F1-score,0.899
