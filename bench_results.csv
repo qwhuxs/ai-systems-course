@@ -1,0 +1,9 @@
+label,model,concurrency,requests,errors,ttft_p50_s,ttft_p95_s,tokens_per_s_per_user_p50,throughput_tokens_per_s,reasoning
+before,gemma3:4b,1,16,0,2.755,2.902,10.8,9.1,False
+before,gemma3:4b,2,16,0,19.907,20.635,10.6,10.1,False
+before,gemma3:4b,4,16,0,41.686,59.747,10.7,10.2,False
+before,gemma3:4b,8,16,0,94.831,109.221,10.7,10.0,False
+after,hf.co/unsloth/gemma-3-4b-it-GGUF:Q3_K_M,1,16,0,2.674,2.721,12.7,10.5,False
+after,hf.co/unsloth/gemma-3-4b-it-GGUF:Q3_K_M,2,16,0,16.671,17.836,12.6,11.9,False
+after,hf.co/unsloth/gemma-3-4b-it-GGUF:Q3_K_M,4,16,0,37.932,69.593,12.3,10.7,False
+after,hf.co/unsloth/gemma-3-4b-it-GGUF:Q3_K_M,8,16,0,91.778,107.884,11.1,10.5,False
